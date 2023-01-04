@@ -78,16 +78,19 @@
         font-size: 12px;
     }
     
-    .btn-sedan {
+    .btn-sedan a {
         color: hsl(31, 77%, 52%);
+        text-decoration: none;
     }
     
-    .btn-suv {
+    .btn-suv a {
         color: hsl(184, 100%, 22%);
+        text-decoration: none;
     }
     
-    .btn-lux {
+    .btn-lux a {
         color: hsl(179, 100%, 13%);
+        text-decoration: none;
     }
     
     @media only screen and (max-width: 600px) {
