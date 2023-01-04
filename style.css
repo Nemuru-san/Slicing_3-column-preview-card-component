@@ -1,0 +1,111 @@
+    @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@500;600;700&family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: -70px;
+    }
+    
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+    }
+    
+    .card {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 900px;
+        margin: 0 auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .card-sedan {
+        background-color: hsl(31, 77%, 52%);
+        padding: 50px;
+    }
+    
+    .card-suv {
+        background-color: hsl(184, 100%, 22%);
+        padding: 50px;
+    }
+    
+    .card-lux {
+        background-color: hsl(179, 100%, 13%);
+        padding: 50px;
+    }
+    
+    .card-img {
+        margin-bottom: 25px;
+    }
+    
+    .card-content {
+        color: white;
+    }
+    
+    .card-content h3 {
+        font-size: 30px;
+        font-family: 'Big Shoulders Display', cursive;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    
+    .card-content p {
+        font-size: 14px;
+        margin-bottom: 90px;
+        font-weight: 300;
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+    }
+    
+    button {
+        padding: 15px 35px;
+        border-radius: 25px;
+        border: none;
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    .btn-sedan {
+        color: hsl(31, 77%, 52%);
+    }
+    
+    .btn-suv {
+        color: hsl(184, 100%, 22%);
+    }
+    
+    .btn-lux {
+        color: hsl(179, 100%, 13%);
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .card-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            margin: 20px;
+        }
+        .card-content p {
+            font-size: 18px;
+            margin-bottom: 50px;
+            font-weight: 300;
+            font-family: 'Lexend Deca', sans-serif;
+            color: hsla(0, 0%, 100%, 0.75);
+        }
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+            margin: 40px;
+        }
+    }
